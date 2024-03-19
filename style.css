@@ -1,52 +1,73 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 12px -2px black;
+}
+.links {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 21px;
+}
+#pic-of-me {
+  width: 300px;
+  margin: 7px;
+}
+nav {
+  background-color: lightgray;
+}
+.logo {
+  margin: 5px;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 7px;
+  padding: 10px;
+}
+.summary {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 22px;
+  margin: 7px;
+  display: flex;
+}
+body {
+  background-color: gray;
+}
+header {
+  background-color: lightgray;
+  box-shadow: 0 0 12px -2px black;
+}
+#summary-text {
+  margin: 7px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 225px;
+}
+/* Here is the about page styling */
+
+.about-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 12px -2px black;
+  background-color: lightgray;
+
+  height: 100px;
+}
+.about-section{
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 0 12px -2px black;
+    background-color: lightgray; 
     
 }
-.links{
-    width: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 21px;
+.about-title{
+    padding: 7px;
+    padding-left: 15px;
 }
-#pic-of-me{
-    width: 300px;
-    margin: 7px;
-    
-}
-nav{
-    background-color: lightgray;
-    
-}
-.logo{
-    margin: 5px;
-}
-.title{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 7px;
-    padding: 10px;
-}
-.summary{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 22px;
-    margin: 7px;
-    display: flex;
-    
-}
-body{
-    background-color: gray;
-}
-header{
-    background-color: lightgray;
-    box-shadow: 0 0 12px -2px black;
-}
-#summary-text{
-    margin: 7px;
-    display: flex;
-    align-items: center;
-    padding-bottom: 225px;
+.about-text{
+    padding: 30px;
 }
