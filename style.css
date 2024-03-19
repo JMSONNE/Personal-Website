@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#pic-of-me{
+    width: 450px;
+    height: 500px;
+}
+nav{
+    background-color: lightgray;
+    
+}
