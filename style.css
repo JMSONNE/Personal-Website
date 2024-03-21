@@ -12,7 +12,8 @@
   font-size: 21px;
 }
 #pic-of-me {
-  width: 300px;
+  max-width: 28vw;
+  max-height: 40vh;
   margin: 7px;
 }
 nav {
@@ -32,8 +33,11 @@ nav {
   font-size: 22px;
   margin: 7px;
   display: flex;
+  justify-content: space-between;
 }
 body {
+  margin-left: 22%;
+  width: 60vw;
   background-color: gray;
 }
 header {
@@ -45,6 +49,21 @@ header {
   display: flex;
   align-items: center;
   padding-bottom: 225px;
+  margin-left: 5vw;
+}
+.bottom-bar{
+  display: grid;
+  box-shadow: 0 0 12px -2px black;
+  height: 10%;
+  width: 100%;
+  z-index: 5;
+  background-color: lightgray;
+}
+ @media(max-width: 500px){ 
+  #pic-of-me{
+    width: 0px;
+    height: 0px;
+  }
 }
 /* Here is the about page styling */
 
